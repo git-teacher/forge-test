@@ -24,6 +24,9 @@ public class SimpleFunnyEntity implements Serializable
    @Column
    private String clownName = "Bond, James Bond ...";
 
+   @Column
+   private String clownAge;
+
    public Long getId()
    {
       return this.id;
