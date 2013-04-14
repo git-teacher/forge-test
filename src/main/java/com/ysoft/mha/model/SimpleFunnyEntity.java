@@ -22,7 +22,7 @@ public class SimpleFunnyEntity implements Serializable
    private int version = 0;
 
    @Column
-   private String clownName;
+   private String clownName = "Mato";
 
    public Long getId()
    {
