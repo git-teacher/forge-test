@@ -102,6 +102,8 @@ public class SimpleFunnyEntity implements Serializable
       String result = getClass().getSimpleName() + " ";
       if (clownName != null && !clownName.trim().isEmpty())
          result += "clownName: " + clownName;
+      if (clownAge != null && !clownAge.trim().isEmpty())
+         result += ", clownAge: " + clownAge;
       return result;
    }
 }
