@@ -86,6 +86,16 @@ public class SimpleFunnyEntity implements Serializable
       this.clownName = clownName;
    }
 
+   public String getClownAge()
+   {
+      return this.clownAge;
+   }
+
+   public void setClownAge(final String clownAge)
+   {
+      this.clownAge = clownAge;
+   }
+
    @Override
    public String toString()
    {
